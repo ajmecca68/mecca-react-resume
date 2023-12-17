@@ -1,0 +1,359 @@
+/* #root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+} */
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+  height: 150px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+/* resume start */
+.resume {
+  font-family: 'Times New Roman', serif;
+  line-height: 1.5;
+  max-width: 8.5in; /* standard paper width */
+  margin: 40px auto;
+  padding: 20px;
+  background: #fff;
+  color: #000;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  border: 1px solid #ddd;
+}
+
+.resume .resume-header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.resume .resume-header h1 {
+  font-size: 24px;
+  margin: 0;
+}
+
+.resume .resume-header address, .resume .resume-header p {
+  font-style: normal;
+  margin: 5px 0;
+}
+
+.resume section h2 {
+  font-size: 20px;
+  color: #000;
+  text-align: center; /* Centering the section headings */
+  margin-top: 30px;
+  margin-bottom: 15px;
+  padding-bottom: 3px;
+}
+
+.resume ul {
+  list-style: disc outside; /* Positioning bullets outside the content */
+  margin: 0;
+  padding-left: 20px;
+}
+
+.resume ul li {
+  margin-bottom: 5px;
+}
+
+.resume .professional-experience article, .resume .education section {
+  margin-bottom: 20px;
+}
+
+/* Additional typographic adjustments for readability */
+.resume p, .resume ul, .resume .resume-header address, .resume .resume-header p {
+  font-size: 14px;
+}
+
+/* Adjusting line-height for better readability */
+.resume address, .resume p, .resume ul li {
+  line-height: 1.6;
+}
+
+
+/* resume end */
+
+
+article {
+  margin-bottom: 10px;
+}
+
+
+footer {
+  position: fixed; 
+  text-align: center;
+  left: 0; 
+  bottom: 0;    
+  width: 100%;     
+  height: 100px;   
+  background-color: #154170;
+  color: white;
+}
+
+/* Product page */
+.product-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 10px;
+  padding: 10px;
+}
+
+
+.product {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+}
+
+.product img {
+  max-width: 100%;
+  height: auto;
+}
+
+.description {
+  margin: 10px 0;
+}
+
+.buy-now {
+  margin-top: 10px;
+}
+
+
+.description {
+  margin: 10px 0;
+}
+
+.buy-now {
+  margin-top: 10px;
+}
+
+.nav {
+  background-color: gray;
+  width: 100%;
+  color: white;
+}
+
+.nav-link {
+  color: white;
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  text-align: center;
+}
+
+.top-image img {
+  width: 80%;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto; /* Center the image */
+}
+
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 equal columns */
+  grid-gap: 10px; /* Space between images */
+  padding: 10px;
+}
+
+.image-grid img {
+  width: 100%;
+  height: auto;
+  background: #f2f2f2;
+  border: black 1px solid;
+  padding: 5px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.container {
+  border: 2px solid #ddd; /* Light gray border */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  padding: 20px; /* Padding inside the container */
+  margin: 20px auto; /* Centering the container with some margin */
+  max-width: 1000px; /* Adjust the maximum width as needed */
+  background-color: white; /* Background color */
+}
+
+.top-image img, .image img {
+  max-width: 100%; /* Ensure images do not overflow their container */
+  height: auto; /* Maintain aspect ratio */
+  margin-bottom: 10px; /* Space between images */
+}
+
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Three columns */
+  grid-gap: 10px; /* Space between grid items */
+}
+
+/* Adjust the .image-grid layout for smaller screens if necessary */
+@media (max-width: 768px) {
+  .image-grid {
+      grid-template-columns: repeat(2, 1fr); /* Two columns for smaller screens */
+  }
+}
+
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+/* Home pages */
+.image-links-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 2 columns */
+  gap: 10px;
+  text-align: center;
+}
+
+.image-links-container a {
+  text-decoration: none;
+  color: black;
+}
+
+.image-links-container img {
+  width: 80%;
+  height: auto;
+  border-radius: 8px;
+  border: black 2px solid;
+  height: 400px;
+}
+
+@media (min-width: 600px) {
+  .image-links-container {
+    grid-template-columns: repeat(4, 1fr); /* 4 columns on wider screens */
+  }
+}
+
+/* Styles for the overall contact section */
+section {
+  padding-top: 0px;
+  /* background-color: #f2f2f2; Light gray background */
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 20vh; /* Adjust height as needed */
+}
+
+/* Styles for the form */
+#contact-form {
+  background: #f2f2f2;
+  border: black 1px solid;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 500px; /* Adjust width as needed */
+  width: 100%;
+}
+
+/* Styles for form fields */
+#contact-form div {
+  margin-bottom: 15px;
+}
+
+#contact-form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+#contact-form input[type="text"],
+#contact-form input[type="email"],
+#contact-form textarea {
+  width: 100%; /* Full width */
+  padding: 8px;
+  border: 1px solid #ddd; /* Light gray border */
+  border-radius: 4px;
+  box-sizing: border-box; /* Include padding in width */
+}
+
+#contact-form textarea {
+  resize: vertical; /* Allow vertical resize */
+}
+
+/* Styles for the submit button */
+#contact-form button {
+  background-color: #4CAF50; /* Green background */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+#contact-form button:hover {
+  background-color: #45a049;
+}
+
+/* Styles for error message */
+.error-text {
+  color: red;
+  font-size: 0.9rem;
+}
+
+
+.header {
+  height: 130px; 
+  width: 100%; 
+  margin: 0; 
+  padding: 0; 
+  background-color: #154170; 
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+/* Medium screens: two columns */
+@media (min-width: 600px) {
+  .product-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Large screens: four columns */
+@media (min-width: 1024px) {
+  .product-container {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}

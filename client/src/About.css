@@ -1,0 +1,25 @@
+.about-page {
+    font-family: 'Arial', sans-serif;
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background: #f9f9f9;
+    color: #333;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.about-page h1 {
+    color: #007bff;
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.about-page p {
+    text-align: justify;
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
